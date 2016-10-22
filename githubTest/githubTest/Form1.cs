@@ -16,5 +16,10 @@ namespace githubTest
         {
             InitializeComponent();
         }
+
+        private void bgogit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(this,"Ciao","",MessageBoxButtons.OK);
+        }
     }
 }

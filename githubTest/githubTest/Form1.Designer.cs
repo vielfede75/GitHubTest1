@@ -33,18 +33,19 @@
             // 
             // bgogit
             // 
-            this.bgogit.Location = new System.Drawing.Point(99, 92);
+            this.bgogit.Location = new System.Drawing.Point(401, 89);
             this.bgogit.Name = "bgogit";
             this.bgogit.Size = new System.Drawing.Size(75, 23);
             this.bgogit.TabIndex = 0;
             this.bgogit.Text = "Go git";
             this.bgogit.UseVisualStyleBackColor = true;
+            this.bgogit.Click += new System.EventHandler(this.bgogit_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.ClientSize = new System.Drawing.Size(517, 288);
             this.Controls.Add(this.bgogit);
             this.Name = "Form1";
             this.Text = "Form1";
